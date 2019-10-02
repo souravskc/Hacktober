@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <style>
+    h1{
+        color:brown;
+        font: 400;
+    }</style>
+</head>
+<html>
+    <h1>HTml Forms</h1><br>
+    <body>
+        <form action="/action_page.php" target="_blank">
+            <fieldset>
+                <legend>user ID</legend>
+            First name:<br>
+            <input type="text" name="firstname" value="Mickey"><br>
+            Last name:<br>
+            <input type="text" name="lastname" value="Mouse"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+          </form>      <br>
+        <form>
+            <input type="radio" name="gender" value="male" checked>Male<br>
+            <input type="radio" name="gender" value="Female" checked>Female<br>
+            <input type="radio" name="gender" value="others" checked>other<br>
+        </form>
+        <br>
+        <form action="/action_page.php">
+            <fieldset>
+              <legend>Select Ur favourite Car</legend>  
+            
+        <select name="Cars" size="4" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="BMW">BMW</option>
+            <option value="MAruti">MAruti</option>
+            <option value="Chevrolet">Chevrolet</option>
+        </select></form>
+    </fieldset>
+    <form action="/action_page.php">
+    <fieldset>
+        <legend>Type ur feelings</legend>
+        <textarea name="message" rows="10" cols="20">The cat was playing in the garden.</textarea>
+    </fieldset></form>
+    <button type="button" onclick="alert('Hello World!!!')">Click Me</button>
+    <form action="/action_page.hph">
+    <fieldset>
+        <legend>Name of web browser</legend>
+        <input list="browsers" name="brower">
+        <datalist id="browsers">
+            <option value="Internet explorer">Internet Explorer</option>
+            <option value="crome">Crome</option>
+            <option value="firefox">Firefox</option>
+
+        </datalist>
+    </fieldset></form>
+    <form action="/action_page.hph">
+    <fieldset>
+        <legend>Form</legend>
+        <p>First Name </p>
+        <input type="text" name="firstname">
+        <p>Last Name</p>
+        <input type="text" name="LAstname">
+        <br>
+        <input type="submit">
+    </fieldset></form>
+        
+    </body>
+</html>
