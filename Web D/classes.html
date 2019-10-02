@@ -1,0 +1,53 @@
+<!DOCTOR html>
+<html>
+<head>
+<style>
+#myheader{
+background-color:lightblue;
+color: black;
+padding:40px;
+text-align:center;
+}
+span.note{
+font-size:120%;
+color:red;
+}
+.city{
+background-color: tomato;
+color: white;
+padding: 10px;
+}
+.cities{
+background-color: black;
+color:white;
+margin:20px;
+padding:20px;
+}
+</style>
+</head>
+<body>
+<button onclick="myFunction()">hide elements</button>
+<div class="cities">
+<h2>london</h2>
+<p>capital of england</p>
+</div>
+<div class="cities" style="color:red">
+<h2>paris</h2>
+<p>capital of france</p>
+
+</div>
+<h1>my <span class="note">important</span></h1>
+<h1 class="city">sarthak</hi>
+<script>
+function myfunction(){
+var=document.getElementsBYClassName("city");
+for(var i=0;i<x.length;i++){
+x[i].style.display="none";
+}
+}
+</script>
+<h1 id="myheader">MY Header</h1>
+
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head><title>sarthak</title>
+<style>
+/* Style the element with the id "myHeader" */
+#myHeader {
+  background-color: lightblue;
+  color: blue;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Style all elements with the class name "city" */
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+} 
+</style>
+</head>
+<body>
+    <p><a href="#C4">Jump to Paris</a></p>
+
+<h2>Difference Between Class and ID</h2>
+<p>An HTML page can only have one unique id applied to one specific element, while a class name can be applied to multiple elements.</p>
+
+<iframe src="https://www.w3schools.com/html/html_iframe.asp" height="100" width="150">click</iframe>
+<iframe src="demo_iframe.htm" style="border:2px solid red;"><img src="C:\Users\Gabbar Hacker\Desktop\IMG20190224075731.jpg" src="its me"></img></iframe>
+
+<p><a href="https://www.w3schools.com/html/html_iframe.asp" src="w3school">www.w3school.com</a></p>
+
+<a href="https://www.w3schools.com/html/html_iframe.asp" src="w3school">
+    <button type="button">click me</button>
+</a>
+<button type="button" onclick="myfunction()">click me</button>
+<script>
+function fx2(){
+   window.location="https://www.w3schools.com/html/html_head.asp"} </script>
+<p id="demo">this is demostration</p>
+<script>
+    function myfunction(){
+document.getElementById("demo").innerHTML="hello world";
+document.getElementById("demo").style.color="red";
+}
+</script>
+
+
+<script>
+function light(n){
+var pic
+if(n==0)
+    pic="C:\Users\Gabbar Hacker\Desktop\IMG20190224075731.jpg"
+if(n==1)
+    pic="https://www.google.com/imgres?imgurl=https%3A%2F%2Fblogs.iadb.org%2Fcaribbean-dev-trends%2Fwp-content%2Fuploads%2Fsites%2F34%2F2017%2F12%2FBlockchain1.jpg&imgrefurl=https%3A%2F%2Fblogs.iadb.org%2Fcaribbean-dev-trends%2Fen%2Fblockchain-technology-explained-and-what-it-could-mean-for-the-caribbean%2F&docid=iwLDVdHgbT_1iM&tbnid=1Xu_ZCWwt735EM%3A&vet=10ahUKEwiFoZPivO3kAhX04nMBHRdMDOQQMwh7KAEwAQ..i&w=1200&h=720&bih=730&biw=1517&q=block%20chain&ved=0ahUKEwiFoZPivO3kAhX04nMBHRdMDOQQMwh7KAEwAQ&iact=mrc&uact=8"
+    
+
+document.getElementById("hi").src = pic;
+}
+</script>
+<img id="hi" src="C:\Users\Gabbar Hacker\Desktop\IMG20190224075731.jpg" height="100" width="100">
+
+<button type="button" onclick="light(0)">lion</button>
+<button type="button" onclick="light(1)">zebra</button>
+
+
+
+
+
+
+
+
+
+<!-- A unique element -->
+<h1 id="myHeader">My Cities</h1>
+
+<!-- Multiple similar elements -->
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Rome</h2>
+<p>Rome is capital of italy</p>
+
+<h2 class="city">newyork</h2>
+<p>newyork is a city in USA</p>
+
+<h2 class="city">NEw Delhi</h2>
+<p>NEw delhi is capital of India</p>
+
+<h2 class="city" id="C4">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+</body>
+</html>
