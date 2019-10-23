@@ -1,0 +1,29 @@
+body{
+   margin:0;
+color:black;
+}
+
+header{
+    margin:0;
+    
+    background:#999;
+    
+}
+header h1{
+    margin:0;
+    display:inline;
+}
+nav ul {
+    
+    margin:50;
+    padding:0;
+    display:inline;
+    
+}
+nav ul li{
+    position: relative;
+    background:rgba(128, 0, 0, 0.863);
+    display:inline-block;
+    list-style-type: none;
+    padding: 4px 2px 0px 2px;
+}
